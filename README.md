@@ -1,6 +1,6 @@
-# Airbnb-Clone-Project-BE
+## Airbnb-Clone-Project-BE
 Airbnb Clone Project
-📌 Project Overview
+## Project Overview
 The Airbnb Clone Project is a full-stack web application that replicates key features of Airbnb, focusing on backend development. It offers hands-on experience with building a scalable, secure, and feature-rich booking platform.
 
 🎯 Goals:
@@ -15,7 +15,7 @@ Apply security best practices
 
 Set up a CI/CD pipeline for automated deployment
 
-👥 Team Roles
+## Team Roles
 Backend Developer
 Responsible for designing and implementing the application’s logic, APIs, and integrations. Focuses on handling data, authentication, and server-side operations.
 
