@@ -1,9 +1,9 @@
-## Airbnb-Clone-Project-BE
-Airbnb Clone Project
+# Airbnb-Clone-Project-BE
+
 ## Project Overview
 The Airbnb Clone Project is a full-stack web application that replicates key features of Airbnb, focusing on backend development. It offers hands-on experience with building a scalable, secure, and feature-rich booking platform.
 
-🎯 Goals:
+## Project Goals
 
 Simulate a real-world software development environment
 
@@ -28,7 +28,7 @@ Implements CI/CD pipelines, manages Docker containers, and oversees the deployme
 Frontend Developer (optional)
 Connects the backend APIs to the UI, focusing on a seamless user experience.
 
-🧰 Technology Stack
+## Technology Stack
 Technology	Purpose
 Django	Backend web framework for creating RESTful APIs
 MySQL	Relational database for managing structured application data
@@ -36,39 +36,39 @@ GraphQL	Query language for flexible client-server data interaction
 Docker	Containerization for consistent development and deployment
 GitHub Actions	CI/CD automation tool for building, testing, and deploying code
 
-🗃️ Database Design
-Key Entities:
-User
+## Database Design
+### Key Entities:
+### User
 
 id, username, email, password
 
 A user can book properties and post reviews.
 
-Property
+### Property
 
 id, title, description, location, price
 
 A property belongs to a user (host).
 
-Booking
+### Booking
 
 id, user_id, property_id, check_in, check_out
 
 Represents a reservation made by a user.
 
-Review
+### Review
 
 id, user_id, property_id, rating, comment
 
 Reviews are tied to both users and properties.
 
-Payment
+### Payment
 
 id, booking_id, amount, payment_method, status
 
 Records payment info linked to bookings.
 
-Relationships:
+### Relationships
 
 One user can have many properties.
 
@@ -76,7 +76,7 @@ One property can have many bookings and reviews.
 
 One booking leads to one payment.
 
-🧩 Feature Breakdown
+## Feature Breakdown
 User Management: Users can sign up, log in, and manage their profiles securely.
 
 Property Listings: Hosts can create, update, and delete property listings.
@@ -87,7 +87,7 @@ Review System: Users can leave reviews and ratings for properties they’ve stay
 
 Payment Integration: Simulated payment system to handle booking payments.
 
-🔐 API Security
+## API Security
 Authentication: Uses JWT tokens to ensure only registered users can access protected endpoints.
 
 Authorization: Restricts access to specific resources (e.g., only the host can modify their property).
@@ -104,17 +104,17 @@ Transaction Safety: Secures payment-related endpoints.
 
 Platform Integrity: Maintains trust and prevents misuse of the system.
 
-🚀 CI/CD Pipeline
+## CI/CD Pipeline
 What is CI/CD?
 Continuous Integration and Continuous Deployment (CI/CD) automate the development workflow, ensuring that code changes are automatically tested and deployed.
 
-Tools:
+### Tools:
 
 GitHub Actions: Automates testing and deployment after code commits.
 
 Docker: Ensures consistent environment across development, staging, and production.
 
-Benefits:
+### Benefits:
 
 Speeds up delivery
 
